@@ -165,13 +165,71 @@ body {
 }
 
 /* Knowledge */
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+.container-topic{
+    background-color: rgb(236, 210, 161);
+    padding: 1em;
+    border-radius: 15px ;
+    margin: 15px;
 
+}
 .knowledge {
     background-color: #e5e5f7;
     background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
+
+}
+.container-fort{
+    background-color: rgb(228, 208, 171);
+    padding: 1em;
+    border-radius: 15px ;
+    margin: 15px;
+}
+.container-oportunity{
+    background-color: rgb(219, 198, 162);
+    padding: 1em;
+    border-radius: 15px ;
+    margin: 15px;
+}
+.container-debilities{
+    background-color: rgb(212, 199, 175);
+    padding: 1em;
+    border-radius: 15px ;
+    margin: 15px;
+}
+.container-ame{
+    background-color: rgb(187, 177, 158);
+    padding: 1em;
+    border-radius: 15px ;
+    margin: 15px;
+}
+.container-reco{
+    background-color: rgb(161, 153, 138);
+    padding: 1em;
+    border-radius: 15px ;
+    margin: 15px;
+}
+.titleh4{
+    text-align: center;
+    padding: 10px;
+}
+.h3foda{
+    text-align: center;
+    padding: 1em;
 }
 
 .knowledge__container{
